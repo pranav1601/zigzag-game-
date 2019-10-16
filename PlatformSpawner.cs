@@ -42,12 +42,12 @@ public class PlatformSpawner : MonoBehaviour {
     void SpawnPlatforms()
     {
         
-        int rand = Random.Range(0, 6);
-        if (rand < 3)
+        int rand = Random.Range(0, 8);
+        if (rand < 4)
         {
             SpawnX();
         }
-        else if(rand>=3)
+        else if(rand>=4)
         {
             SpawnZ();
         }
